@@ -1,0 +1,32 @@
+{
+  "name": "simple-promise",
+  "version": "1.0.0",
+  "description": "simple promise",
+  "main": "index.js",
+  "scripts": {
+    "dev:build": "rollup -c -w rollup.config.js --environment NODE_ENV:develepment",
+    "build": "rollup -c rollup.config.js --environment NODE_ENV:production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiangyao0303/simple-promise.git"
+  },
+  "author": "jiangyao",
+  "license": "ISC",
+  "keywords": [
+    "promise"
+  ],
+  "bugs": {
+    "url": "https://github.com/jiangyao0303/simple-promise/issues"
+  },
+  "homepage": "https://github.com/jiangyao0303/simple-promise#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  }
+}
